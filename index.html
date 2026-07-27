@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darab E-Commerce Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>🛒 My Store</h2>
+        <div class="cart-icon">
+            Cart (<span id="cart-count">0</span>)
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Our Store</h1>
+        <p>Best Products at Reasonable Prices</p>
+    </section>
+    <section class="products" id="products">
+
+    <div class="card">
+        <img src="OPACjpg.jpeg" alt="T-Shirt">
+        <h3>Cotton T-Shirt</h3>
+        <p>$15</p>
+        <button data-name="Cotton T-Shirt" data-price="15">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="s7-AI802P04390002_lifestylejpg.avif" alt="Shoes">
+        <h3>Running Shoes</h3>
+        <p>$40</p>
+        <button data-name="Running Shoes" data-price="40">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fossil-Dark-blue-Wrist-Watchjpg.webp" alt="Watch">
+        <h3>Wrist Watch</h3>
+        <p>$60</p>
+        <button data-name="Wrist Watch" data-price="60">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="OPAC.jpeg" alt="Bag">
+        <h3>Travel Bag</h3>
+        <p>$35</p>
+        <button data-name="Travel Bag" data-price="35">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="download.webp" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>$25</p>
+        <button data-name="Headphones" data-price="25">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="download (1).webp" alt="Sunglasses">
+        <h3>Sunglasses</h3>
+        <p>$20</p>
+        <button data-name="Sunglasses" data-price="20">Add to Cart</button>
+    </div>
+
+</section>
+
+<section class="cart">
+    <h2>Shopping Cart</h2>
+
+    <div id="cart-items">
+        <p id="empty-cart-msg" style="color: var(--ink-soft); font-size: 14px;">Your cart is empty.</p>
+    </div>
+
+    <h3>Total: $<span id="cart-total">0</span></h3>
+</section>
+
+<footer>
+    <p>Thanks for visit; 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
